@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* main div container */
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.formHeading{
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+/* Form div styling */
+.form-container {
+  position: relative;
+  top:-15%;
+  width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* form selection element styling */
+.form-select{
+  display: block;
+}
+.dropdown-select {
+  width: 100%; 
+  padding: 10px; 
+  margin-top: 6px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: #fff; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+.dropdown-select option {
+  padding: 10px; 
+  background-color: #fff; 
+  color: #333; 
+  font-size: 16px; 
+}
+
+/* button styling */
+.form-button {
+  background-color: #107ef3;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border: 2px solid white;
+}
+
+.form-button:hover {
+  background-color: #64a8ec;
+  border-color: #e3ed2f;
+}
+
+/* last info text */
+.infoText{
+  text-align: center;
+  padding-top: 1rem;
+}
